@@ -50,7 +50,7 @@ namespace prelim_exam
             Console.WriteLine(this.Name + "has four chamberered heart: " + eagle.HasfourchamberedHeart);
             Console.WriteLine(this.Name + "is Light weight Skeleton: " + eagle.ISlightweightSkeleton);
             Console.WriteLine(this.Name + "legs: : " + this._numberOfLegs);
-            Console.WriteLine(this.Name + "can Swim: " + eagle.CanSwim);
+            Console.WriteLine(this.Name + "can Swim: " + this.CanSwim);
         }
 
         public void eagleInfo()
@@ -85,7 +85,7 @@ namespace prelim_exam
             Console.WriteLine(this.Name + "has four chamberered heart: " + crow.HasfourchamberedHeart);
             Console.WriteLine(this.Name + "is Light weight Skeleton: " + crow.ISlightweightSkeleton);
             Console.WriteLine(this.Name + "legs: : " + this._numberOfLegs);
-            Console.WriteLine(this.Name + "can Swim: " + dove.CanSwim);
+            Console.WriteLine(this.Name + "can Swim: " + this.CanSwim);
         }
 
         public void crowInfo()
