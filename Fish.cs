@@ -31,7 +31,7 @@ namespace prelim_exam
 
             Console.WriteLine("Clown Fish");
             Console.WriteLine("Name: " + this.Name);
-            Console.WriteLine(this.Name + "Legs: " + _numberOfLegs);
+            Console.WriteLine(this.Name + "Legs: " + this._numberOfLegs);
             Console.WriteLine(this.Name + "can swim: " + this.CanSwim);
 
         }
@@ -54,7 +54,7 @@ namespace prelim_exam
 
             Console.WriteLine("Blue Tang");
             Console.WriteLine("Name: " + this.Name);
-            Console.WriteLine(this.Name + "Legs: " + _numberOfLegs);
+            Console.WriteLine(this.Name + "Legs: " + this._numberOfLegs);
             Console.WriteLine(this.Name + "can swim: " + this.CanSwim);
 
         }
