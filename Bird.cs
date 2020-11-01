@@ -14,12 +14,14 @@ namespace prelim_exam
 
         public override void GetClass()
         {
-            Console.WriteLine("Class: Aves");
+            this._class = "Aves";
+            Console.WriteLine(this._class);
         }
 
         public override void GetType()
         {
-            Console.WriteLine("Type: bird");
+            this._ofType = "Bird";
+            Console.WriteLine(this._ofType);
         }
     }
     
@@ -29,26 +31,26 @@ namespace prelim_exam
         {
             Bird eagle = new Bird();
 
-            crow.Hasfeather = true;
-            crow.Istoothless = true;
-            crow.Hasbeakjaws = true;
-            crow.Islaying = true;
-            crow.HasfourchamberedHeart = true;
-            crow.ISlightweightSkeleton = true;
+            eagle.Hasfeather = true;
+            eagle.Istoothless = true;
+            eagle.Hasbeakjaws = true;
+            eagle.Islaying = true;
+            eagle.HasfourchamberedHeart = true;
+            eagle.ISlightweightSkeleton = true;
             this._numberOfLegs = 2;
             this.CanSwim = false;
             this.Name = "Zeta";
 
             Console.WriteLine("Eagle");
             Console.WriteLine("Name: " + this.Name);
-            Console.WriteLine(this.Name + "has feather: " + dove.Hasfeather);
-            Console.WriteLine(this.Name + "is toothless: " + dove.Istoothless);
-            Console.WriteLine(this.Name + "has beakjaws: " + dove.Hasbeakjaws);
-            Console.WriteLine(this.Name + "is Laying: " + dove.Islaying);
-            Console.WriteLine(this.Name + "has four chamberered heart: " + dove.HasfourchamberedHeart);
-            Console.WriteLine(this.Name + "is Light weight Skeleton: " + dove.ISlightweightSkeleton);
+            Console.WriteLine(this.Name + "has feather: " + eagle.Hasfeather);
+            Console.WriteLine(this.Name + "is toothless: " + eagle.Istoothless);
+            Console.WriteLine(this.Name + "has beakjaws: " + eagle.Hasbeakjaws);
+            Console.WriteLine(this.Name + "is Laying: " + eagle.Islaying);
+            Console.WriteLine(this.Name + "has four chamberered heart: " + eagle.HasfourchamberedHeart);
+            Console.WriteLine(this.Name + "is Light weight Skeleton: " + eagle.ISlightweightSkeleton);
             Console.WriteLine(this.Name + "legs: : " + this._numberOfLegs);
-            Console.WriteLine(this.Name + "can Swim: " + dove.CanSwim);
+            Console.WriteLine(this.Name + "can Swim: " + eagle.CanSwim);
         }
 
         public void eagleInfo()
@@ -76,12 +78,12 @@ namespace prelim_exam
 
             Console.WriteLine("Crow");
             Console.WriteLine("Name: " + this.Name);
-            Console.WriteLine(this.Name + "has feather: " + dove.Hasfeather);
-            Console.WriteLine(this.Name + "is toothless: " + dove.Istoothless);
-            Console.WriteLine(this.Name + "has beakjaws: " + dove.Hasbeakjaws);
-            Console.WriteLine(this.Name + "is Laying: " + dove.Islaying);
-            Console.WriteLine(this.Name + "has four chamberered heart: " + dove.HasfourchamberedHeart);
-            Console.WriteLine(this.Name + "is Light weight Skeleton: " + dove.ISlightweightSkeleton);
+            Console.WriteLine(this.Name + "has feather: " + crow.Hasfeather);
+            Console.WriteLine(this.Name + "is toothless: " + crow.Istoothless);
+            Console.WriteLine(this.Name + "has beakjaws: " + crow.Hasbeakjaws);
+            Console.WriteLine(this.Name + "is Laying: " + crow.Islaying);
+            Console.WriteLine(this.Name + "has four chamberered heart: " + crow.HasfourchamberedHeart);
+            Console.WriteLine(this.Name + "is Light weight Skeleton: " + crow.ISlightweightSkeleton);
             Console.WriteLine(this.Name + "legs: : " + this._numberOfLegs);
             Console.WriteLine(this.Name + "can Swim: " + dove.CanSwim);
         }
