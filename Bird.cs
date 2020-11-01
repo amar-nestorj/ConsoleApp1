@@ -88,7 +88,7 @@ namespace prelim_exam
 
         public void crowInfo()
         {
-            Crow crow = new Dove();
+            Crow crow = new Crow();
             crow.crow();
         }
 }
