@@ -1,11 +1,39 @@
 ﻿namespace ConsoleApp1
 {
-    public interface IAnimal
+    public interface Iamphibian
     {
-        void Hunt();
-        void Sound();
+        void froginfo();
+        void salamanderinfo();
 
     }
+    
+    public interface Ibird
+    {
+        void eagleinfo();
+        void crowinfo();
+
+    }
+    
+    public interface Ifish
+    {
+        void bluetanginfo();
+        void clowninfo();
+
+    }
+     
+    public interface Imammal
+    {
+        void monkeyinfo();
+        void bearinfo();
+
+    }
+     
+    public interface Ireptile
+    {
+        void snakeinfo();
+        void crocinfo();
+
+    } 
 
 
 }
