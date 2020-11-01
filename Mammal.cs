@@ -74,7 +74,7 @@ namespace prelim_exam
             this._numberOfLegs = 4;
             this.CanSwim = true;
 
-            Console.WriteLine("Bear");
+            Console.WriteLine("Monkey");
             Console.WriteLine("Name: " + this.Name);
             Console.WriteLine(this.Name + "is Vertebrate: " + monkey.IsVertebrate);
             Console.WriteLine(this.Name + "Has Neocortex: " + monkey.HasNeocortex);
