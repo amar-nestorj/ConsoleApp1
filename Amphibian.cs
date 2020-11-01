@@ -34,6 +34,7 @@ namespace prelim_exam
 
             Console.WriteLine("Frog");
             Console.WriteLine("Name: " + this.Name);
+            Console.WriteLine(this.Name + "is coldblooded: " + frog.Coldblooded);
             Console.WriteLine(this.Name + "legs: " + this._numberOfLegs);
             Console.WriteLine(this.Name + "can swim: " + this.CanSwim);
             
@@ -60,6 +61,7 @@ namespace prelim_exam
 
             Console.WriteLine("Salamander");
             Console.WriteLine("Name: " + this.Name);
+            Console.WriteLine(this.Name + "is coldblooded: " + frog.Coldblooded);
             Console.WriteLine(this.Name + "legs: " + this._numberOfLegs);
             Console.WriteLine(this.Name + "can swim: " + this.CanSwim);
         }
