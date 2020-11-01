@@ -39,7 +39,7 @@ namespace prelim_exam
             
         }
 
-        public void froginfo()
+        public void frogInfo()
         {
             Frog frog = new Frog();
             frog.frog();
@@ -64,7 +64,7 @@ namespace prelim_exam
             Console.WriteLine(this.Name + "can swim: " + this.CanSwim);
         }
         
-        public void salamanderinfo()
+        public void salamanderInfo()
         {
             Salamander salamander = new Salamander();
             salamander.salamander();
