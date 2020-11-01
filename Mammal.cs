@@ -25,7 +25,7 @@ namespace prelim_exam
         }
     }
     
-    public class Bear : Mammal, Imammal
+    public class Bear : Mammal,Imammal
     {
         public void bear()
         {
