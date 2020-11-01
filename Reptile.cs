@@ -4,14 +4,17 @@ namespace prelim_exam
 {
     public class Reptile : Animal
     {
-        public override string GetClass()
+        
+        public override void GetClass()
         {
-            throw new NotImplementedException();
+            this._class = "Reptilia";
+            Console.WriteLine(this._class);
         }
 
-        public override string OfType()
+        public override void GetType()
         {
-            throw new NotImplementedException();
+            this._ofType = "Reptile";
+            Console.WriteLine(this._ofType);
         }
     }
 }
