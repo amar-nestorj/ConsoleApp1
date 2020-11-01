@@ -36,8 +36,7 @@ namespace prelim_exam
             Console.WriteLine("Name: " + this.Name);
             Console.WriteLine(this.Name + "legs: " + this._numberOfLegs);
             Console.WriteLine(this.Name + "can swim: " + this.CanSwim);
-
-
+            
         }
 
         public void froginfo()
