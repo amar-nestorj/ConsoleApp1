@@ -2,36 +2,36 @@
 {
     public interface Iamphibian
     {
-        void froginfo();
-        void salamanderinfo();
+        void frogInfo();
+        void salamanderInfo();
 
     }
     
     public interface Ibird
     {
-        void eagleinfo();
-        void crowinfo();
+        void eagleInfo();
+        void crowInfo();
 
     }
     
     public interface Ifish
     {
-        void bluetanginfo();
-        void clowninfo();
-
+        void clownInfo();
+        void bluetangInfo();
+        
     }
      
     public interface Imammal
     {
-        void monkeyinfo();
-        void bearinfo();
+        void bearInfo();
+        void monkeyInfo();
 
     }
      
     public interface Ireptile
     {
-        void snakeinfo();
-        void crocinfo();
+        void snakeInfo();
+        void crocInfo();
 
     } 
 
