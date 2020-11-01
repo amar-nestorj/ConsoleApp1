@@ -20,6 +20,8 @@ namespace prelim_exam
             Console.WriteLine(this._ofType);
         }
         
+    }  
+        
     public class Frog : Amphibian,Iamphibian
     {
         public void frog()
@@ -70,5 +72,4 @@ namespace prelim_exam
         }
      }
     
-    }
 }
